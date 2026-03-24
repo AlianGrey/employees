@@ -19,13 +19,18 @@ class EmployeesAddForm extends Component {
 
     onSubmit = (e) => {
         e.preventDefault()
-        this.setState( () => {
-            this.props.onAdd(this.state.name, this.state.salary) 
-        })
-        this.setState({
-            name:'',
-            salary: ''
-        })
+        if ((this.state.name && this.state.name.length >= 3) && this.state.salary) {
+            this.setState( () => {
+                this.props.onAdd(this.state.name, this.state.salary) 
+            })
+            this.setState({
+                name:'',
+                salary: ''
+            })
+        } else {
+            alert('неверно заполнены данные')
+        }
+
     }
 
     render () {
