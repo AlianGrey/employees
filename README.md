@@ -29,7 +29,7 @@ GitHub Pages Employee Management App: [Employees](https://aliangrey.github.io/em
 - 🍪 Assign bonus (highlight employee)  
 - ❌ Delete employees  
 - ➕ Add new employees via form  
-- ✅ Form validation (salary must be a number)  
+- ✅ Form validation (salary must be a number, all fields required)  
 - ⚡ Instant UI updates without page reload  
 
 ---
