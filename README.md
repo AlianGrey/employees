@@ -6,7 +6,7 @@ A React-based application for managing employees within a company.
 The app allows users to add, remove, search and filter employees, as well as manage bonuses and promotion status through interactive UI elements.
 
 ## 🚀 Demo
-GitHub Pages Employee Management App:[Employees](https://aliangrey.github.io/employees/)
+GitHub Pages Employee Management App: [Employees](https://aliangrey.github.io/employees/)
 
 ---
 
